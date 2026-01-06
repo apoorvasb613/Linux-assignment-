@@ -2,7 +2,8 @@
 
 
 1.**CONFIGURING SMPT ON LOCAL HOST:**
-**Steps**:
+
+Steps:
 - sudo apt update
 - sudo apt install postfix -y
 - sudo systemctl start postfix
@@ -29,7 +30,8 @@ steps:
 
 - step4:Remove the user from the sudo group
  3. **CREATE DESCRIBE FILE RUN FROM ANYWHERE**:
- STEPS:
+
+STEPS:
  - step1:Create a new script file in a directory that is in the system PATH (e.g., /usr/local/bin).
 
 - step2:Write a simple script that lists all files and folders in the current directory (ls).
@@ -42,14 +44,17 @@ screen shots:
 
 ![Screenshot](describe.png)
  
- 4. **Find research.file and uncompress**:
- steps:
+ 4. **FIND THE research.file AND UNZIP IT**:
+ 
+ STEPS:
 - gunzip research.gz
 - bunzip2 research.bz2
 - unzip research.zip
 - tar -xvzf research.tar.gz
+
 5. **CREATE A FILE WITH NO PERMISSION**:
 
+STEPS:
 - STEP1:Opens the /etc/profile file using nano editor.
 __sudo nano /etc/profile__
 
@@ -62,6 +67,9 @@ __umask 777__
 ![Screenshot](filepermission.png)
 
 6. **CREATE SHOWTIME SERVICE**:
+
+STEPS:
+
 - step1:
 create a showtime shell file :
   
